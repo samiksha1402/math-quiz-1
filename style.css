@@ -1,0 +1,32 @@
+.body_backgorund {
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+
+.login_div1 , .login_div2
+	{
+		background: rgb(173, 167, 167);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+    #player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#heading_txt
+{
+color: azure;
+font-family: 'Rampart One', cursive;
+}
+
+.login_txt
+{
+	font-family: 'Luckiest Guy', cursive;
+font-family: 'Rampart One', cursive;
+font-family: 'Urbanist', sans-serif;
+}
