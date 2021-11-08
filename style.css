@@ -31,3 +31,16 @@ font-family: 'Rampart One', cursive;
 font-family: 'Urbanist', sans-serif;
 }
 
+#heading_text
+{
+	font-family: 'Rampart One', cursive;
+	font-size: 40px;
+}
+
+.number_txt
+{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 26px;
+	color: white;
+}
+

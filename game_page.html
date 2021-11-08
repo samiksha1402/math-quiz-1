@@ -7,17 +7,27 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Urbanist:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+
 
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="body_backgorund">
 
     <h4 id="player1_name"></h4> <span id="player1_score"></span>
     <h4 id="player2_name"></h4> <span id="player2_score"></span>
 
 <div class="container">
     <center>
-        <h2 style="color:white"> Guess the word! </h2>
+        <h2 id ="heading_text" style="color:white"> Math quiz Game! </h2>
         <h2 id="player_question"></h2>
         <h2 id="player_answer"></h2>
         <br>
@@ -25,17 +35,17 @@
         <div id="output" class="col-lg-6"></div>
         <br>
         <br>
-        <h4> Number 1 </h4>
+        <h4 class="number_txt"> Number 1 </h4>
         <br>
         <input type="text" class="form-control" id="number_1" placeholder="Number 1">
         <br>
-        <h4> Number 2 </h4>
+        <h4 class="number_txt"> Number 2 </h4>
         <br>
         <input type="text" class="form-control" id="number_2" placeholder="Number 2">
         <br>
         <button style="width:30%" onclick="send()" class="btn btn-success"> Send </button>
     </center>
 </div>
-<script src="main.js"
+<script src="game_page.js"
 
 </body>
