@@ -44,3 +44,16 @@ font-family: 'Urbanist', sans-serif;
 	color: white;
 }
 
+#output {
+background:azure;
+border-radius: 10px;
+border-top: 10px solid #0e8686;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+.styling_txt {
+font-family: 'Times New Roman', Times, serif;
+color: white;
+}
